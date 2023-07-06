@@ -1,0 +1,33 @@
+.modal {
+  .MuiBackdrop-root {
+    background-color: #000000b3;
+  }
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    background-color: #fff;
+    border: 2px solid #009978;
+    border-radius: 10px;
+     max-width: 500px;
+    .modal-header {
+      padding: 15px 50px 15px 20px;
+      .modal-close {
+        padding: 4px;
+        border: 2px solid #009978;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+    }
+    .modal-body {
+      padding: 0 20px 20px;
+      max-height: calc(100vh - 150px);
+    }
+  }
+}
